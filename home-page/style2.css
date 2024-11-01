@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09010E;
+}
+
+div.header>header>a {
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 110px;
+    color: #fff;
+}
+
+div.header {
+    direction: rtl;
+    margin-top: 20px;
+    margin-right: 25px;
+    font-family: yekan;
+}
+
+div.header>header>a.sign-up {
+    background-color: #BC3CD8;
+    border-radius: 8px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+a.sign-up {
+    margin-right: 60px;
+}
+
+a.company,
+a.feature,
+a.home {
+    transition: 500ms;
+}
+div.header>header>a.home{
+    color: #C824EC;
+}
+
+div.header>header>a.feature:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.header>header>a.company:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.header>header>a.home:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+.explore>h2 {
+    direction: rtl;
+    margin-right: 85px;
+    color: #fff;
+    font-size: 60px;
+    font-family: yekan;
+}
+
+.explore>p {
+    direction: rtl;
+    margin-right: 85px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-family: yekan;
+}
+
+.explore>button {
+    position: absolute;
+    right: 85px;
+    margin-top: 40px;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    background-color: #BC3CD8;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: yekan;
+}
+
+.explore>b {
+    color: #fff;
+    margin-top: 50px;
+    position: absolute;
+    right: 300px;
+    font-size: 25px;
+    font-family: yekan;
+}
+
+
+.people-icon>img {
+    position: relative;
+    left: 1165px;
+    margin-left: -10px;
+}
+
+.dot {
+    position: relative;
+    left: 1120px;
+    top: -27px;
+    display: inline-block;
+}
+
+.explore>h3 {
+    color: #fff;
+    position: relative;
+    direction: rtl;
+    top: -45px;
+    right: 250px;
+    font-size: medium;
+    font-family: yekan;
+}
+
+.blue {
+    background-color: #534686;
+    width: 400px;
+    height: 450px;
+    position: relative;
+    top: -350px;
+    left: 130px;
+    border-radius: 10% 30% 50% 50%;
+}
+div.star>img{
+    width: 70px;
+    position: relative;
+    top: -410px;
+    right: -560px;
+}
+div.bigimg>img.bimg {
+    width: 430px;
+    position: absolute;
+    top: -105px;
+    left: -20px;
+    z-index: 2;
+}
+
+div.blue>img.border {
+    width: 590px;
+    position: absolute;
+    top: -185px;
+    left: -90px;
+    z-index: 1;
+}
+
+.blue>h2 {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    font-family: yekan;
+}
+
+div.blue>img.line {
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+
+.blue>p {
+    color: #fff;
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    font-size: 17px;
+    text-align: center;
+    font-family: yekan;
+}
+
+.images>.vec1 {
+    width: 300px;
+    position: absolute;
+    top: -200px;
+    right: 40px;
+}
+
+.images>.vec2 {
+    width: 300px;
+    position: absolute;
+    right: 390px;
+}
+.images{
+    position: relative;
+    direction: rtl;
+}
+.game>h2,.game>p{
+    color: #fff;
+    direction: rtl;
+    position: relative;
+    right: 800px;
+    font-family: yekan;
+}
+.game>h2{
+    font-size: 43px;
+    font-family: yekan;
+}
+.game>p{
+    font-size: 26px;
+    font-family: yekan;
+}
+.game>button {
+    position: absolute;
+    right: 795px;
+    margin-top: 40px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 23px;
+    background-color: #BC3CD8;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: yekan;
+}
+@font-face {
+    font-family: yekan;
+    src: url(./font/IRANYekanXVF.woff);
+}

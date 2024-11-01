@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09010E;
+    margin-left: 50px;
+}
+
+div.header>header>a {
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 110px;
+    color: #fff;
+}
+
+div.header {
+    direction: rtl;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+div.header>header>a.sign-up {
+    background-color: #BC3CD8;
+    border-radius: 8px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+a.sign-up {
+    margin-right: 60px;
+}
+
+a.company,
+a.feature,
+a.home {
+    transition: 500ms;
+}
+
+div.header>header>a.feature {
+    color: #C824EC;
+}
+
+div.header>header>a.feature:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.header>header>a.company:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.header>header>a.home:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.icon {
+    position: relative;
+}
+
+.purple-bg {
+    overflow: hidden;
+    position: relative;
+    width: 950px;
+    z-index: 0;
+}
+
+.photo1 {
+    overflow: hidden;
+    margin-top: 18px;
+    position: absolute;
+    left: 737px;
+    top: 20px;
+    width: 160px;
+    border-radius: 8.56px 30.68px 6.56px 6.56px;
+    z-index: 1;
+}
+
+.p1 {
+    width: 400px;
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    color: #fff;
+    font-family: yekan;
+    z-index: 2;
+}
+
+h2,
+p {
+    color: #fff;
+    font-family: yekan;
+}
+
+div.images1 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+h2.headset {
+    direction: rtl;
+    margin-top: 200px;
+    position: relative;
+    right: 280px;
+    font-family: yekan;
+}
+
+img.pic1 {
+    width: 400px;
+    position: relative;
+}
+
+img.pic2 {
+    width: 400px;
+    position: relative;
+    margin-left: 20px;
+}
+
+img.pic3 {
+    width: 400px;
+    position: relative;
+}
+
+img.pic4 {
+    width: 400px;
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.fist-pic,
+.second-pic,
+.third-pic,
+.fourth-pic {
+    display: inline-block;
+    position: relative;
+}
+
+div.definision1 {
+    top: 177px;
+}
+
+div.definition2 {
+    top: 177px;
+    margin-left: 20px;
+}
+
+div.definition3 {
+    top: 156px;
+}
+
+div.definition4 {
+    top: 176px;
+    margin-left: 20px;
+}
+
+div.definision1,
+div.definition2,
+div.definition3,
+div.definition4 {
+    backdrop-filter: blur(17.7px);
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding-left: 3px;
+    font-family: yekan;
+}
+
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    border-radius: 5px;
+}
+
+.text {
+    border: 1.1px solid rgba(185, 54, 245, 0.14);
+    display: inline-block;
+    padding: 5px;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(#5d4b65, black, #3e0857 1%, rgba(170, 20, 240, 0.08) 32%, rgba(151, 60, 68, 0.0) 99%, rgba(185, 54, 245, 0));
+    right: 35px;
+    font-family: yekan;
+}
+
+.clients {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    font-size: 35px;
+    border-radius: 8px;
+    font-family: yekan;
+}
+
+.comment1,
+.comment2,
+.comment3 {
+    font-size: 15px;
+    width: 322px;
+    border: 1.1px solid rgba(185, 54, 245, 0.14);
+    height: 190px;
+    display: inline-block;
+    margin-left: 17px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 150px;
+    background: linear-gradient(180deg, #7d10b0, rgba(0, 0, 0, 0), #5c2575 0.01%, rgba(203, 143, 232, 0.18) 32.92%, rgba(151, 60, 68, 0.05) 99.99%, rgba(199, 137, 228, 0));
+    backdrop-filter: blur(11.43px);
+    right: 40px;
+    font-family: yekan;
+}
+
+.comment1 {
+
+    position: relative;
+    bottom: 126px;
+
+}
+
+div.comment {
+    position: relative;
+    text-align: center;
+}
+
+img.comment-icon1 {
+    width: 40px;
+    border-radius: 50%;
+}
+
+img.comment-icon2 {
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+img.comment-icon3 {
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+img.comment-icon1,
+img.comment-icon2,
+img.comment-icon3 {
+    position: relative;
+    right: 120px;
+    top: 18px;
+    display: inline-block;
+}
+
+img.comment-icon2,
+img.comment-icon3 {
+    position: relative;
+    top: 40px;
+}
+
+.parag1,
+.parag2,
+.parag3 {
+    direction: rtl;
+    padding: 8px;
+    font-size: larger;
+    font-family: yekan;
+}
+
+.name1,
+.name2,
+.name3 {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    font-size: 20px;
+}
+
+.id1,
+.id2,
+.id3 {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    font-size: 20px;
+    color: #eb4468;
+}
+
+.name2,
+.name3 {
+    bottom: 9px;
+}
+
+.id2,
+.id3 {
+    bottom: 9px;
+}
+
+.company-value {
+    display: inline-block;
+}
+
+.value {
+    display: inline-block;
+}
+
+.matn {
+    margin-left: 300px;
+    text-align: right;
+    font-size: 30px;
+    display: inline-block;
+    font-family: yekan;
+}
+
+div.images {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+.peace,
+.shake,
+.tick,
+.lamp {
+    display: inline-block;
+}
+
+.shake {
+    margin-left: 100px;
+}
+
+.lamp {
+    margin-left: 50px;
+}
+
+.peace2 {
+    margin-left: 20px;
+}
+
+.shake2 {
+    margin-left: 50px;
+}
+
+.tick2 {
+    margin-left: 20px;
+}
+
+.lamp2 {
+    margin-left: 40px;
+}
+
+.product {
+    border: 1.6px solid rgba(185, 54, 245, 0.15);
+    background: #2B023E;
+    border-radius: 8.35px;
+    box-sizing: border-box;
+    width: 85%;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+    left: 25px;
+}
+
+.matn2 {
+    direction: rtl;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-size: 28px;
+    margin-left: 590px;
+    display: inline-block;
+    font-family: yekan;
+}
+
+.matn2>h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-family: yekan;
+}
+
+.form {
+    direction: rtl;
+    display: inline-block;
+    margin-left: 650px;
+}
+
+.your-email {
+    backdrop-filter: blur(12.16px);
+    border-radius: 1.62px;
+    background: linear-gradient(180deg, #2e0a3e, rgba(0, 0, 0, 0), #4d1765 0.01%, rgba(203, 143, 232, 0.18) 32.92%, rgba(151, 60, 68, 0.05) 99.99%, rgba(199, 137, 228, 0));
+    border: 0.8px solid rgba(185, 54, 245, 0.14);
+    box-sizing: border-box;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    right: -90px;
+    margin-top: 30px;
+}
+
+::placeholder {
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: yekan;
+}
+
+.send2 {
+    background-color: #a553ab;
+    border-radius: 2.44px;
+    border: 1px solid #9b49a0;
+    margin-right: 10px;
+    color: white;
+    height: 30px;
+    width: 65px;
+    display: inline-block;
+    position: relative;
+    right: -90px;
+    top: 3px;
+}
+
+.hands {
+    position: relative;
+    bottom: 362px;
+    width: 690px;
+    height: 500px;
+}
+
+.matn2>p {
+    display: inline-block;
+    font-family: yekan;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(./font/IRANYekanXVF.woff);
+}

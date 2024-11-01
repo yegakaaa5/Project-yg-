@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.frame-child4 {
+    height: 552.5px;
+    width: 572.9px;
+    position: absolute;
+    margin: 0 !important;
+    top: -72.1px;
+    left: -210px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50%, rgba(170, 20, 240, 0.31), rgba(0, 0, 0, 0));
+}
+div.sign-in{
+    display: inline-block;
+    width: 45%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    box-sizing: border-box;
+   
+}
+.ellipse-div {
+    height: 552.5px;
+    width: 572.9px;
+    position: absolute;
+    margin: 0 ;
+    top: -272.1px;
+    left: 100px;
+    border-radius: 50%;
+    background: radial-gradient(50% 50%, rgba(170, 20, 240, 0.31), black);
+}
+div.sign-up{
+    display: block;
+    width: 54.5%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    box-sizing: border-box;
+    float: right;
+}
+div.sign-in>h2{
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    font-family: yekan;
+}
+div.sign-in>p{
+    width: 75%;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    font-family: yekan;
+}
+div.sign-in>button{
+    position: absolute;
+    left: 260px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #a553ab;
+    color: #fff;
+    border: 2px solid #a553ab;
+    font-family: yekan;
+}
+.sign-up>h2{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-family: yekan;
+}
+.sign-up>form>input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+}
+.sign-up>form{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.sign-up>button{
+    position: absolute;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #a553ab;
+    color: #fff;
+    border: 2px solid #a553ab;
+    top: 450px;
+    left: 320px;
+    font-family: yekan;
+}
+.sign-up>form>input[type=text]{
+    background-image: url(./img/icons8-user-30.png);
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+
+}
+.sign-up>form>input[type=email]{
+    background-image: url(./img/icons8-email-24.png);
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+
+}
+.sign-up>form>input[type=password]{
+    background-image: url(./img/icons8-password-24.png);
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+@font-face {
+    font-family: yekan;
+    src: url(./font/IRANYekanXVF.woff);
+}

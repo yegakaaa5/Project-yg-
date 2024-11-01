@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #09010E;
+}
+div.header>header>a {
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 110px;
+    color: #fff;
+}
+
+div.header {
+    direction: rtl;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+div.header>header>a.sign-up {
+    background-color: #BC3CD8;
+    border-radius: 8px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+a.sign-up {
+    margin-right: 60px;
+}
+
+a.company,
+a.feature,
+a.home {
+    transition: 500ms;
+}
+div.header>header>a.company{
+    color: #C824EC;
+}
+div.header>header>a.feature:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.header>header>a.company:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+div.header>header>a.home:hover {
+    color: #C824EC;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 3px;
+}
+
+
+div.best {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(./img/pic1pink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+div.best>h2,
+div.best>h3 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-family: yekan;
+}
+
+div.best>h2 {
+    margin-top: 30px;
+    font-size: 54px;
+    font-family: yekan;
+}
+
+div.best>h3 {
+    font-size: 20px;
+    font-family: yekan;
+}
+
+div.best>button {
+    border: 1px solid #fff;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 1px;
+    color: #7b287f;
+    position: relative;
+    right: -570px;
+    top: 300px;
+    font-family: yekan;
+}
+
+div.work>h5 {
+    color: #fff;
+    position: relative;
+    right: -170px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: yekan;
+}
+
+div.work>h2 {
+    color: #fff;
+    position: relative;
+    right: -170px;
+    margin-bottom: 23px;
+    display: inline-block;
+    font-family: yekan;
+}
+
+div.mid>p {
+    color: #fff;
+    display: inline-block;
+    direction: rtl;
+    font-size: 20px;
+    position: absolute;
+    left: 820px;
+    top: 970px;
+    font-family: yekan;
+}
+
+div.mid>img {
+    display: inline-block;
+    width: 600px;
+    margin-left: 170px;
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: #fff;
+    outline-offset: 12px;
+}
+
+div.mid>h4 {
+    color: #7b287f;
+    display: inline-block;
+    direction: rtl;
+    position: absolute;
+    left: 1080px;
+    top: 1125px;
+    font-family: yekan;
+}
+
+div.people {
+    width: 500px;
+    height: 250px;
+    background-color: #7b287f;
+    position: relative;
+    left: 530px;
+    top: -150px;
+
+}
+
+div.people>h2 {
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 30px;
+    font-family: yekan;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(./font/IRANYekanXVF.woff);
+}
+
+div.people>h2.a {
+    padding-left: 40px;
+    font-size: 17px;
+}
+
+div.people>h2.b {
+    padding-left: 190px;
+    font-size: 17px;
+
+}
+
+div.people>h2.c {
+    padding-left: 40px;
+    font-size: 35px;
+}
+
+div.people>h2.d {
+    padding-left: 150px;
+    font-size: 35px;
+}
+
+div.people>h2.e,
+div.people>h2.f {
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+div.img>img {
+    width: 500px;
+    position: relative;
+    left: 660px;
+    display: inline-block;
+    border-right: 20px double #E2E0E3;
+}
+
+div.percent>h2 {
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    font-family: yekan;
+    position: relative;
+    bottom: 520px;
+    right: -500px;
+}
+
+div.percent>p {
+    color: #fff;
+    display: inline-block;
+    direction: rtl;
+    position: relative;
+    right: -20px;
+    bottom: 340px;
+    font-family: yekan;
+    font-size: 20px;
+}
+
+div.percent>h3 {
+    color: #fff;
+    direction: rtl;
+    position: relative;
+    font-family: yekan;
+    bottom: 290px;
+    right: 730px;
+}
+
+div.percent>img {
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    right: -220px;
+    bottom: 300px;
+}
